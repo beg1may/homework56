@@ -1,0 +1,64 @@
+.ingredient {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ingredient-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.ingredient-name {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.ingredient-price {
+    font-size: 14px;
+    color: #888;
+}
+
+.add-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* BurgerBuilder.css */
+.burger-builder {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ingredients-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.current-burger {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+
+.current-burger h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.current-burger ul {
+    list-style: none;
+    padding: 0;
+}
+
+.current-burger li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
